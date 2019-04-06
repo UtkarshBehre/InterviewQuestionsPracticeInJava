@@ -90,17 +90,25 @@ public class FindSum {
 		for(int i = 0; i<input.length; i++){
 			input[i] = input.length-i;
 		}
-		long t1 = System.currentTimeMillis();
-		System.out.println(findPairWithSum(input, 199999));
-		long t2 = System.currentTimeMillis();
+		long t11 = System.currentTimeMillis();
+		System.out.println(findPairWithSum(input, 1999999));
+		long t12 = System.currentTimeMillis();
 		
-		System.out.println(findPairWithSumN2(input, 199999));
-		long t3 = System.currentTimeMillis();
+		for(int i = 0; i<input.length; i++){
+			input[i] = input.length-i;
+		}
+		long t21 = System.currentTimeMillis();
+		System.out.println(findPairWithSumN2(input, 1999999));
+		long t22 = System.currentTimeMillis();
 		
-		System.out.println(findPairWithSumMap(input, 199999));
-		long t4 = System.currentTimeMillis();
-		System.out.println("findPairWithSumBinary: " + (t2-t1));
-		System.out.println("findPairWithSumN2: " + (t3-t2));
-		System.out.println("findPairWithSumMap: " + (t4-t3));
+		for(int i = 0; i<input.length; i++){
+			input[i] = input.length-i;
+		}
+		long t31 = System.currentTimeMillis();
+		System.out.println(findPairWithSumMap(input, 1999999));
+		long t32 = System.currentTimeMillis();
+		System.out.println("findPairWithSumBinary: " + (t12-t11));
+		System.out.println("findPairWithSumN2: " + (t22-t21));
+		System.out.println("findPairWithSumMap: " + (t32-t31));
 	}
 }
