@@ -45,11 +45,11 @@ public class FibonacciNumber {
 
 	public static void main(String[] args){
 		long t0 = System.currentTimeMillis();
-		System.out.println(fibNum(40));
+		System.out.println(fibNum(45));
 		long t1 = System.currentTimeMillis();
-		System.out.println(fibNumDynamic(40));
+		System.out.println(fibNumDynamic(45));
 		long t2 = System.currentTimeMillis();
-		System.out.println(fibNumDynamicBottomUp(40));
+		System.out.println(fibNumDynamicBottomUp(45));
 		long t3 = System.currentTimeMillis();
 		System.out.println("Recursive programming: "+ (t1-t0));
 		System.out.println("dynamic programming: "+ (t2-t1));
