@@ -4,6 +4,7 @@ This repository contains practice solutions to the following common programming 
 | Question 					   |   Solution types   			  |Running Time  |		Solution class		  |
 |:-----------------------------|:---------------------------------|:------------:|:--------------------------:|
 |Find any nth fibonacci number |  recursive, dynamic, bottom up   |     O(n)     |     FibonacciNumber.java	  |
+|How to find square root of a large number in O(logn) time. | iterative | O(nlogn) | SquareRootUsingBinarySearch |
 |Find a pair of integers if any in an array, whose sum is a specific number|  binary search, n^2, hashmap	| O(nlogn) | 	FindSum.java |
 |find the kth minimum number in a given array of distinct integers| using partial and full quicksort | O(nlogn) | FindKthMinInt.java |
 |Implement merge sort for linked list | merge sort	| O(nlogn)	| MergeSortForLinkedList.java	|
