@@ -13,3 +13,4 @@ This repository contains practice solutions to the following common programming 
 | Implement quick sort on a singly linked list | recursive | O(n<sup>2</sup>) | QuickSortForSinglyLinkedList.java | 
 | Quick Sort implementation on doubly linked list | recursive | O(n<sup>2</sup> | QuickSortForDoublyLinkedList.java|
 | Find k closest elements to a given value | distinct and non distinct 	| O(klogn) | FindKClosestElements.java |
+| Sort n numbers in range from 0 to n^2 – 1 in linear time | modified radix for power 2 or k | O(n) and O(kn) | SortNNumsRangeN2 | 
