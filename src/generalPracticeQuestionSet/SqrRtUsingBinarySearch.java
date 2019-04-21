@@ -5,7 +5,7 @@ package generalPracticeQuestionSet;
  * @author Utkarsh Behre
  *
  */
-public class SquareRootUsingBinarySearch {
+public class SqrRtUsingBinarySearch {
 	
 	public static int findSquareRoot(int x){
 		int l = 0;
