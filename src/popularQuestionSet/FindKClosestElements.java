@@ -15,12 +15,12 @@ public class FindKClosestElements {
 	public static void main(String[] args) {
 		/* expected output for {12, 16, 22, 30, 35, 39, 42, 45, 48, 50, 53, 55, 56}
 		   Output: 30 39 42 45 */
-		int[] arr = {12, 16, 22, 30, 35, 39, 42, 
+		int[] arr = {12, 16, 22, 30, 30, 35, 39, 42, 
 	               45, 48, 50, 53, 55, 56};
 		//int[] arr = {33,43,75};
 		int k = 4; 
 		int x = 35;
-		printClosestElements(arr, k, x);
+		printClosestDistinctElements(arr, k, x);
 	}
 	
 	/**
@@ -48,7 +48,7 @@ public class FindKClosestElements {
 		// we compare left and right element each time and decrement or increment
 		// based on which element was printed O(k)
 		while(left>=0 && right<arr.length && k>0) {
-			if(x - arr[left] < x - arr[right])
+			if(x - arr[left] < arr[right] - x )
 				System.out.print(arr[left--]+" ");
 			else
 				System.out.print(arr[right++]+" ");
@@ -64,6 +64,60 @@ public class FindKClosestElements {
 		while(k>0 && right<arr.length) {
 			System.out.print(arr[right++]+" ");
 			k--;
+		}
+	}
+	
+	/**
+	 * Solution for the given problem if array has distinct elements
+	 * Everything is same as printClosestElements() except here we don't count nor print repeated elements
+	 */
+	public static void printClosestDistinctElements(int[] arr, int k, int x) {
+		int n = arr.length;
+		// find closest index using modified binary search O(logn)
+		int index = findClosest(arr, 0, n-1, x);
+		int left = index;
+		int right = index+1;
+		
+		// if we find the element we move left index 1 left so that we don't print the element
+		if(arr[index] == x)
+			left = left-1;
+		
+		// we compare left and right element each time and decrement or increment
+		// based on which element was printed O(k)
+		// if given elements array has repeated elements, we only print it once so
+		while(left>=0 && right<n && k>0) {
+			if(x - arr[left] < arr[right] - x ) {
+				if(left+1<n && arr[left+1] != arr[left]) {
+					System.out.print(arr[left]+" ");
+					k--;
+				}
+				left--;
+			}
+			else {
+				if(right-1>=0 && arr[right-1] != arr[right]) {
+					System.out.print(arr[right]+" ");
+					k--;
+				}
+				right++;
+			}
+			
+		}
+		// by this point if k >0 then we need more elements to be printed
+		// print leftover left elements if no more right elements
+		while(k>0 && left>=0) {
+			if(left+1<n && arr[left+1] != arr[left]) {
+				System.out.print(arr[left]+" ");
+				k--;
+			}
+			left--;
+		}
+		// print leftover right elements if no more left elements
+		while(k>0 && right<n) {
+			if(right-1>=0 && arr[right-1] != arr[right]) {
+				System.out.print(arr[right]+" ");
+				k--;	
+			}
+			right++;
 		}
 	}
 	

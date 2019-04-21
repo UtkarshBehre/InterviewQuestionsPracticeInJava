@@ -12,4 +12,4 @@ This repository contains practice solutions to the following common programming 
 | Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted | loops | O(n) | MinimumUnsortedSubarray.java |
 | Implement quick sort on a singly linked list | recursive | O(n<sup>2</sup>) | QuickSortForSinglyLinkedList.java | 
 | Quick Sort implementation on doubly linked list | recursive | O(n<sup>2</sup> | QuickSortForDoublyLinkedList.java|
-| Find k closest elements to a given value | iterative and recursive	| O(klogn) | FindKClosestElements.java |
+| Find k closest elements to a given value | distinct and non distinct 	| O(klogn) | FindKClosestElements.java |
