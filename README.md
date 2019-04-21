@@ -10,4 +10,5 @@ This repository contains practice solutions to the following common programming 
 |Implement merge sort for linked list | merge sort	| O(nlogn)	| MergeSortForLinkedList.java	|
 | Sort a nearly sorted (or K sorted) array  | modified quick sort	| O(nlogk)	|	SortAlmostSortedArray	|
 | Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted | loops | O(n) | MinimumUnsortedSubarray.java |
-| Implement quick sort on a singly linked list | recursive | O(n<sup>2</sup>) or O(nlogn) | QuickSortForSinglyLinkedList.java | 
+| Implement quick sort on a singly linked list | recursive | O(n<sup>2</sup>) | QuickSortForSinglyLinkedList.java | 
+| Quick Sort implementation on doubly linked list | recursive | O(n<sup>2</sup> | QuickSortForDoublyLinkedList.java|
