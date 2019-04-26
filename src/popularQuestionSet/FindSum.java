@@ -6,6 +6,7 @@ import java.util.Map;
 
 /**
  * Problem: Find a pair of integers if any in an array, whose sum is a specific number
+ * Running time = O(nlogn) if unsorted | O(n) if sorted
  * @author Utkarsh Behre
  *
  */
@@ -21,6 +22,24 @@ public class FindSum {
 				break;
 		}
 		
+		return result;
+	}
+	
+	// O(n) if array is sorted O(nlogn) if array is not sorted
+	public static boolean findPairWithSumBothEnds(int[] arr, int sum){
+		// below line can be removed if the given array is sorted
+		Arrays.sort(arr);
+		boolean result = false;
+		int l = 0;
+		int r = arr.length-1;
+		while(l<r){
+			if(arr[l] + arr[r] == sum )
+				result = true;
+			else if(arr[1] + arr[r] < sum)
+				l++;
+			else
+				r--;
+		}
 		return result;
 	}
 	
@@ -92,6 +111,7 @@ public class FindSum {
 		}
 		long t11 = System.currentTimeMillis();
 		System.out.println(findPairWithSum(input, 1999999));
+		//System.out.println(findPairWithSumBothEnds(input, 1999999));
 		long t12 = System.currentTimeMillis();
 		
 		for(int i = 0; i<input.length; i++){
