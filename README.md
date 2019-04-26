@@ -18,3 +18,4 @@ This repository contains practice solutions to the following common programming 
 | Find maximum children to which n candies can be distributed | iterative until no candies | < O(logn) | FairCandyDistribution.java |
 | Find common elements in three sorted arrays | iterative all in one | O(n1+n2+n3) | CommonIn3SortedArrays.java |
 | Given a sorted array and a number x, find the pair in array whose sum is closest to x | iterative both ends | O(n) | ClosestPairInSortedArray.java |
+| Count 1’s in a sorted binary array | binary search | O(logn) | Count1BinarySortedArr.java
