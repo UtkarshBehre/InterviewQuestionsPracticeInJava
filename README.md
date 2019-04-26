@@ -16,3 +16,4 @@ This repository contains practice solutions to the following common programming 
 | Sort n numbers in range from 0 to n^2 – 1 in linear time | modified radix for power 2 or k | O(n) and O(kn) | SortNNumsRangeN2.java | 
 | Find the closest pair from two sorted arrays whose sum is closest to x | iterative from start and end | O(n1+n2) | ClosestPairSortedArrays.java |
 | Find maximum children to which n candies can be distributed | iterative until no candies | < O(logn) | FairCandyDistribution.java |
+| Find common elements in three sorted arrays | iterative all in one | O(n1+n2+n3) | CommonIn3SortedArrays.java |

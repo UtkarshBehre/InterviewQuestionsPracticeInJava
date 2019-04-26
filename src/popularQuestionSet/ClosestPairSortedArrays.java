@@ -13,6 +13,8 @@ package popularQuestionSet;
  *
  */
 public class ClosestPairSortedArrays {
+	
+	// tester
 	public static void main(String[] args){
 		int[] arr1 = {1, 4, 5, 7};
         int[] arr2 = {10, 20, 30, 40};
