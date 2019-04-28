@@ -10,8 +10,8 @@ This repository contains practice solutions to the following common programming 
 |Implement merge sort for linked list | merge sort	| O(nlogn)	| MergeSortForLinkedList.java	|
 | Sort a nearly sorted (or K sorted) array  | modified quick sort	| O(nlogk)	|	SortAlmostSortedArray	|
 | Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted | loops | O(n) | MinimumUnsortedSubarray.java |
-| Implement quick sort on a singly linked list | recursive | O(n<sup>2</sup>) | QuickSortForSinglyLinkedList.java | 
-| Quick Sort implementation on doubly linked list | recursive | O(n<sup>2</sup> | QuickSortForDoublyLinkedList.java|
+| Quick sort implementation on singly linked list | recursive | O(n<sup>2</sup>) | QuickSortForSinglyLinkedList.java | 
+| Quick Sort implementation on doubly linked list | recursive | O(n<sup>2</sup>) | QuickSortForDoublyLinkedList.java|
 | Find k closest elements to a given value | distinct and non distinct 	| O(klogn) | FindKClosestElements.java |
 | Sort n numbers in range from 0 to n^2 – 1 in linear time | modified radix for power 2 or k | O(n) and O(kn) | SortNNumsRangeN2.java | 
 | Find the closest pair from two sorted arrays whose sum is closest to x | iterative from start and end | O(n1+n2) | ClosestPairSortedArrays.java |
