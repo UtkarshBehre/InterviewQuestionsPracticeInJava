@@ -18,3 +18,4 @@ This repository contains practice solutions to the following common programming 
 | Count 1’s in a sorted binary array | binary search | O(logn) | Count1BinarySortedArr.java
 | Search in an almost sorted array | modified binary search  | O(logn)  |  SearchAlmostSorted.java |
 | Minimum adjacent swaps to move maximum and minimum to corners | single iteration | O(n) |  MinAdjSwapsMaxMin.java |
+| Maximum activities possible when given start and finish times | brute force, greedy algorithm | exp, O(n) | ActivitySelectionProblem.java |
