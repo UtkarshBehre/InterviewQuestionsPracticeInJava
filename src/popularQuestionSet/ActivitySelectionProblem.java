@@ -18,6 +18,12 @@ import java.util.*;
  * @author Utkarsh
  */
 public class ActivitySelectionProblem {
+	/*
+	 * Even though greedy algo does not work every where, but it does give
+	 * the optimal solution in many cases which we can achieve by using 
+	 * brute force technique, which makes greedy algo very important when 
+	 * considering solution for problems like this.
+	 */
 	public static void main(String[] args){
 		int[] start = {1, 3, 4, 5, 8, 5, 7, 9, 11, 23, 13};
 		int[] finish = {4, 5, 5, 7, 9, 9, 10, 11, 12, 24, 25};
