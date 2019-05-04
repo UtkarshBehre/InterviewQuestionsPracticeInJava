@@ -19,3 +19,5 @@ This repository contains practice solutions to the following common programming 
 | Search in an almost sorted array | modified binary search  | O(logn)  |  SearchAlmostSorted.java |
 | Minimum adjacent swaps to move maximum and minimum to corners | single iteration | O(n) |  MinAdjSwapsMaxMin.java |
 | Maximum activities possible when given start and finish times | brute force, greedy algorithm | exp, O(n) | ActivitySelectionProblem.java |
+| Sum of 2 numbers represented as linked lists | convert to int, using carry | O(n1+n2) | SumLinkedList.java |
+| Rotate Linked list on k nodes | iterative | O(n) | RotateLinkedList.java |
