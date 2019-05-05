@@ -87,11 +87,12 @@ public class SumLinkedList {
 			// sum%10 will always give the unit's place of the num
 			Node newNode = new Node(sum%10);
 
+			// if head of new list was not set
 			if(llSum.head==null)
 				llSum.head = newNode;
-			else
+			else // else put the next of prev as new node
 				prev.next = newNode;
-			prev = newNode;
+			prev = newNode; // and set cur new node as new prev node
 			if(digit1!=null)
 				digit1 = digit1.next;
 			if(digit2!=null)
