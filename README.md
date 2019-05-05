@@ -28,3 +28,4 @@ This repository contains practice solutions to the following common programming 
 | Next greater element in array | use stack | O(n^2) | NextGreaterElement.java |
 | Reverse a stack | recursion using call stack memory | O(n^2) | ReverseStack.java |
 | sort a stack | recursion using call stack memory | O(n^2) | SortStack.java |
+| Stock Span Problem | using iteration and stack | O(n) | StockSpanProblem.java |

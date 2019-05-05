@@ -1,4 +1,4 @@
-package generalPracticeQuestionSet;
+package popularQuestionSet;
 
 import java.util.Stack;
 
