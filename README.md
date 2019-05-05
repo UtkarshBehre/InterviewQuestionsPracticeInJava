@@ -23,3 +23,5 @@ This repository contains practice solutions to the following common programming 
 | Rotate Linked list on k nodes | iterative | O(n) | RotateLinkedList.java |
 | convert infix expression to postfix expression | use stack for operators | O(n) | StackInfixToPostfix.java |
 | evaluate postfix expression | use stack for numbers | O(n) | PostfixEvaluation.java |
+| reverse string | use stack, swap chars | O(n) | ReverseString.java |
+| Check for balanced parentheses | use stack | O(n) | CheckParentheses.java |

@@ -1,7 +1,5 @@
 package generalPracticeQuestionSet;
 
-import generalPracticeQuestionSet.SumLinkedList.Node;
-
 public class RotateLinkedList {
 
 	public static void main(String[] args){

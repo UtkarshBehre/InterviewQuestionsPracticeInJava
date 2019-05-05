@@ -24,11 +24,9 @@ public class PostfixEvaluation {
 		for(int i = 0; i <exp.length(); i++){
 			Character c = exp.charAt(i);
 			// if char is a digit we push it to stack
-			if(Character.isDigit(c)){
-				String str = "";
-				str+=c;
+			if(Character.isDigit(c))
 				stack.push(c-'0');
-			}
+
 			// if char is operator we pop 2 digits from stack
 			// operate using operator and push back the result
 			else{
