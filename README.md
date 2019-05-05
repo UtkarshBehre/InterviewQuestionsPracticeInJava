@@ -25,3 +25,4 @@ This repository contains practice solutions to the following common programming 
 | evaluate postfix expression | use stack for numbers | O(n) | PostfixEvaluation.java |
 | reverse string | use stack, swap chars | O(n) | ReverseString.java |
 | Check for balanced parentheses | use stack | O(n) | CheckParentheses.java |
+| Next greater element in array | use stack | O(n^2) | NextGreaterElement.java |
