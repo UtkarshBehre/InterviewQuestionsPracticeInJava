@@ -8,8 +8,7 @@ import java.util.Stack;
  * are not allowed to use loop constructs like while, for..
  * etc, and you can only use the following ADT functions on Stack
  * Runtime: O(n^2) 
- * @author ab70352
- *
+ * @author Utkarsh
  */
 public class ReverseStack {
 	// tester

@@ -26,4 +26,5 @@ This repository contains practice solutions to the following common programming 
 | reverse string | use stack, swap chars | O(n) | ReverseString.java |
 | Check for balanced parentheses | use stack | O(n) | CheckParentheses.java |
 | Next greater element in array | use stack | O(n^2) | NextGreaterElement.java |
-| Reverse a stack | recursion using stack space | O(n^2) | ReverseStack.java |
+| Reverse a stack | recursion using call stack memory | O(n^2) | ReverseStack.java |
+| sort a stack | recursion using call stack memory | O(n^2) | SortStack.java |
