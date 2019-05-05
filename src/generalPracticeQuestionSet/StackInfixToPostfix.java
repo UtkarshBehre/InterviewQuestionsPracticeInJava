@@ -11,6 +11,7 @@ public class StackInfixToPostfix {
 
 	/**
 	 * converts given infix expression to postfix expression 
+	 * runtime: O(n)
 	 * @param exp = given infix expression
 	 * @return = converted postfix expression
 	 */

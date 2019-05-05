@@ -21,4 +21,5 @@ This repository contains practice solutions to the following common programming 
 | Maximum activities possible when given start and finish times | brute force, greedy algorithm | exp, O(n) | ActivitySelectionProblem.java |
 | Sum of 2 numbers represented as linked lists | convert to int, using carry | O(n1+n2) | SumLinkedList.java |
 | Rotate Linked list on k nodes | iterative | O(n) | RotateLinkedList.java |
-| convert infix expression to postfix expression | using stack for operators | O(n) | StackInfixToPostfix.java |
+| convert infix expression to postfix expression | use stack for operators | O(n) | StackInfixToPostfix.java |
+| evaluate postfix expression | use stack for numbers | O(n) | PostfixEvaluation.java |
