@@ -5,7 +5,7 @@ package generalPracticeQuestionSet;
  * @author Utkarsh
  *
  */
-public class TreeNodesKDistance {
+public class BinaryTreeNodesKDistance {
 	static class Node{
 		int val;
 		Node left;
@@ -48,8 +48,8 @@ public class TreeNodesKDistance {
 		     2    3 
 		   /  \    \ 
 		  4   5     8  
-         /  \ 
-      	6   7 
+         /   
+      	6    
 		*/
 		tree.root = null;
 		tree.root = new Node(1);

@@ -29,4 +29,5 @@ This repository contains practice solutions to the following common programming 
 | Reverse a stack | recursion using call stack memory | O(n^2) | ReverseStack.java |
 | sort a stack | recursion using call stack memory | O(n^2) | SortStack.java |
 | Stock Span Problem | using iteration and stack | O(n) | StockSpanProblem.java |
-| Print nodes at k distance from root | recursive | O(n) | TreeNodesKDistance.java |
+| Print nodes at k distance from root | recursive | O(n) | BinaryTreeNodesKDistance.java |
+| print ancestors of a node in binary tree | recursive | O(n) | BinaryTreeAncestors.java |
