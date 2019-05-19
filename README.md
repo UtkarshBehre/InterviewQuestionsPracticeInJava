@@ -33,4 +33,5 @@ This repository contains practice solutions to the following common programming 
 | print ancestors of a node in binary tree | recursive | O(n) | BinaryTreeAncestors.java |
 | check if a tree is subtree of a binary tree | recursive | O(n) | BinaryTreeSubCheck.java |
 | Connect Nodes at same Level | recursive using array | O(n) | BinaryTreeConnectLevel.java |
+| find the predecessor and successor of a given element in a binary search tree | recursive | O(n) | BSTPredecessorSuccessor.java |
 ***
