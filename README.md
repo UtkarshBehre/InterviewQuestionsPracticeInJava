@@ -17,7 +17,7 @@ This repository contains practice solutions to the following common programming 
 | Given a sorted array and a number x, find the pair in array whose sum is closest to x | iterative both ends | O(n) | ClosestPairInSortedArray.java |
 | Count 1’s in a sorted binary array | binary search | O(logn) | Count1BinarySortedArr.java
 | Search in an almost sorted array | modified binary search  | O(logn)  |  SearchAlmostSorted.java |
-| Minimum adjacent swaps to move maximum and minimum to corners | single iteration | O(n) |  MinAdjSwapsMaxMin.java |
+| Minimum adjacent swaps to move maximum and minimum to corners | single iteration | O(n) | MinAdjSwapsMaxMin.java|
 | Maximum activities possible when given start and finish times | brute force, greedy algorithm | exp, O(n) | ActivitySelectionProblem.java |
 | Sum of 2 numbers represented as linked lists | convert to int, using carry | O(n1+n2) | SumLinkedList.java |
 | Rotate Linked list on k nodes | iterative | O(n) | RotateLinkedList.java |
@@ -32,3 +32,5 @@ This repository contains practice solutions to the following common programming 
 | Print nodes at k distance from root | recursive | O(n) | BinaryTreeNodesKDistance.java |
 | print ancestors of a node in binary tree | recursive | O(n) | BinaryTreeAncestors.java |
 | check if a tree is subtree of a binary tree | recursive | O(n) | BinaryTreeSubCheck.java |
+| Connect Nodes at same Level | recursive using array | O(n) | BinaryTreeConnectLevel.java |
+***
