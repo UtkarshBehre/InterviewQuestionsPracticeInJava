@@ -31,3 +31,4 @@ This repository contains practice solutions to the following common programming 
 | Stock Span Problem | using iteration and stack | O(n) | StockSpanProblem.java |
 | Print nodes at k distance from root | recursive | O(n) | BinaryTreeNodesKDistance.java |
 | print ancestors of a node in binary tree | recursive | O(n) | BinaryTreeAncestors.java |
+| check if a tree is subtree of a binary tree | recursive | O(n) | BinaryTreeSubCheck.java |
