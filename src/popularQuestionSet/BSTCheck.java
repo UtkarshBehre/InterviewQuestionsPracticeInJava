@@ -5,6 +5,7 @@ import utilityDataStructuresImplementations.BinarySearchTree.Node;
 
 /**
  * check if a binary tree is BST or not
+ * Runtime: O(n)
  * @author Utkarsh
  */
 public class BSTCheck {

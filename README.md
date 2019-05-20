@@ -34,5 +34,6 @@ This repository contains practice solutions to the following common programming 
 | check if a tree is subtree of a binary tree | recursive | O(n) | BinaryTreeSubCheck.java |
 | Connect Nodes at same Level | recursive using array | O(n) | BinaryTreeConnectLevel.java |
 | find the predecessor and successor of a given element in a binary search tree | recursive | O(n) | BSTPredecessorSuccessor.java |
-| check if a binary tree is BST or not | recursive w/wo inOrder technique | O(n) BSTCheck.java |
+| check if a binary tree is BST or not | recursive w/wo inOrder technique | O(n) | BSTCheck.java |
+| find lowest common ancestor in a binary search tree | iterative, recursive | O(h) | BSTLowestCommonAncestor.java |
 ***

@@ -35,7 +35,7 @@ public class BinarySearchTree {
 	 * @param key = element to search
 	 * @return true if element is found
 	 */
-	private boolean searchRec(Node node, int key) {
+	public boolean searchRec(Node node, int key) {
 		if(node==null)
 			return false;
 		if(key == node.val)
