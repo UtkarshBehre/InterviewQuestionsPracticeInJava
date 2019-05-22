@@ -42,7 +42,6 @@ public class FibonacciNumber {
 		return mem[n];
 	}
 
-
 	public static void main(String[] args){
 		long t0 = System.currentTimeMillis();
 		System.out.println(fibNum(45));
