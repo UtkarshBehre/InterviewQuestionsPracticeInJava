@@ -62,7 +62,7 @@ public class FindSum {
 		return result;
 	}
 	
-	// very close to fastest way almost O(nlogn)
+	// almost O(n)
 	// no sorting required
 	public static boolean findPairWithSumMap(int[] arr, int sum){
 		//Arrays.sort(arr); 
@@ -78,7 +78,6 @@ public class FindSum {
 			
 			if(!map.containsKey(arr[i]))
 				map.put(arr[i], i);
-			
 		}
 		return result;
 	}
