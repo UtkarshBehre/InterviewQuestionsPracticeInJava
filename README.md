@@ -3,10 +3,10 @@ This repository contains practice solutions to the following common programming 
 
 | Question 					   |   Solution types   			  |Running Time  |		Solution class		  |
 |:-----------------------------|:---------------------------------|:------------:|:--------------------------:|
-|Find any nth fibonacci number |  recursive, dynamic, bottom up   |     O(n)     |     FibonacciNumber.java	  |
-|How to find square root of a large number in O(logn) time. | iterative | O(nlogn) | SqrRtUsingBinarySearch.java |
-|Find a pair of integers if any in an array, whose sum is a specific number|  binary search, n^2, hashmap, both ends	| O(nlogn) | 	FindSum.java |
-|find the kth minimum number in a given array of distinct integers| using partial and full quicksort | O(nlogn) | FindKthMinInt.java |
+| Find any nth fibonacci number |  recursive, dynamic, bottom up   |     O(n)     |     FibonacciNumber.java	  |
+| How to find square root of a large number in O(logn) time. | iterative | O(nlogn) | SqrRtUsingBinarySearch.java |
+| Find a pair of integers if any in an array, whose sum is a specific number|  binary search, n^2, hashmap, both ends	| O(nlogn) | 	FindSum.java |
+| Find the kth minimum number in a given array of distinct integers| using partial and full quicksort | O(nlogn) | FindKthMinInt.java |
 | Sort a nearly sorted (or K sorted) array  | modified quick sort	| O(nlogk)	|	SortAlmostSortedArray	|
 | Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted | loops | O(n) | MinimumUnsortedSubarray.java |
 | Find k closest elements to a given value | distinct and non distinct 	| O(klogn) | FindKClosestElements.java |
@@ -21,20 +21,21 @@ This repository contains practice solutions to the following common programming 
 | Maximum activities possible when given start and finish times | brute force, greedy algorithm | exp, O(n) | ActivitySelectionProblem.java |
 | Sum of 2 numbers represented as linked lists | convert to int, using carry | O(n1+n2) | SumLinkedList.java |
 | Rotate Linked list on k nodes | iterative | O(n) | RotateLinkedList.java |
-| convert infix expression to postfix expression | use stack for operators | O(n) | StackInfixToPostfix.java |
-| evaluate postfix expression | use stack for numbers | O(n) | PostfixEvaluation.java |
-| reverse string | use stack, swap chars | O(n) | ReverseString.java |
+| Convert infix expression to postfix expression | use stack for operators | O(n) | StackInfixToPostfix.java |
+| Evaluate postfix expression | use stack for numbers | O(n) | PostfixEvaluation.java |
+| Reverse string | use stack, swap chars | O(n) | ReverseString.java |
 | Check for balanced parentheses | use stack | O(n) | CheckParentheses.java |
 | Next greater element in array | use stack | O(n^2) | NextGreaterElement.java |
 | Reverse a stack | recursion using call stack memory | O(n^2) | ReverseStack.java |
-| sort a stack | recursion using call stack memory | O(n^2) | SortStack.java |
+| Sort a stack | recursion using call stack memory | O(n^2) | SortStack.java |
 | Stock Span Problem | using iteration and stack | O(n) | StockSpanProblem.java |
 | Print nodes at k distance from root | recursive | O(n) | BinaryTreeNodesKDistance.java |
-| print ancestors of a node in binary tree | recursive | O(n) | BinaryTreeAncestors.java |
-| check if a tree is subtree of a binary tree | recursive | O(n) | BinaryTreeSubCheck.java |
+| Print ancestors of a node in binary tree | recursive | O(n) | BinaryTreeAncestors.java |
+| Check if a tree is subtree of a binary tree | recursive | O(n) | BinaryTreeSubCheck.java |
 | Connect Nodes at same Level | recursive using array | O(n) | BinaryTreeConnectLevel.java |
-| find the predecessor and successor of a given element in a binary search tree | recursive | O(n) | BSTPredecessorSuccessor.java |
-| check if a binary tree is BST or not | recursive w/wo inOrder technique | O(n) | BSTCheck.java |
-| find lowest common ancestor in a binary search tree | iterative, recursive | O(h) | BSTLowestCommonAncestor.java |
-| print the elements of both BSTs in sorted form with limited space | iterative using 2 stacks | T:O(m+n), S:O(h1+h2) | BSTMergePrint2Trees |
+| Find the predecessor and successor of a given element in a binary search tree | recursive | O(n) | BSTPredecessorSuccessor.java |
+| Check if a binary tree is BST or not | recursive w/wo inOrder technique | O(n) | BSTCheck.java |
+| Find lowest common ancestor in a binary search tree | iterative, recursive | O(h) | BSTLowestCommonAncestor.java |
+| Print the elements of both BSTs in sorted form with limited space | iterative using 2 stacks | T:O(m+n), S:O(h1+h2) | BSTMergePrint2Trees |
+| Correct the BST whose Two nodes are swapped | recursive inorder | O(n) | BSTSwap2BadNodes.java |
 ***
