@@ -36,4 +36,5 @@ This repository contains practice solutions to the following common programming 
 | find the predecessor and successor of a given element in a binary search tree | recursive | O(n) | BSTPredecessorSuccessor.java |
 | check if a binary tree is BST or not | recursive w/wo inOrder technique | O(n) | BSTCheck.java |
 | find lowest common ancestor in a binary search tree | iterative, recursive | O(h) | BSTLowestCommonAncestor.java |
+| print the elements of both BSTs in sorted form with limited space | iterative using 2 stacks | T:O(m+n), S:O(h1+h2) | BSTMergePrint2Trees |
 ***
