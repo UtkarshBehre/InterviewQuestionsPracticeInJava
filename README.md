@@ -39,4 +39,5 @@ This repository contains practice solutions to the following common programming 
 | Print the elements of both BSTs in sorted form with limited space | iterative using 2 stacks | T:O(m+n), S:O(h1+h2) | BSTMergePrint2Trees |
 | Correct the BST whose Two nodes are swapped | recursive inorder | O(n) | BSTSwap2BadNodes.java |
 | Find a pair with given sum in a Balanced BST | inorder and reverse inorder traverse | T:O(n) S:O(logn) | FindSumBalancedBST.java |
+| Merge Two Balanced Binary Search Trees | recursive inorder array | O(m+n) | MergeBalancedBSTs.java |
 ***
