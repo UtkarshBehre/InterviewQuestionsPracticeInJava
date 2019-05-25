@@ -7,7 +7,6 @@ This repository contains practice solutions to the following common programming 
 | How to find square root of a large number in O(logn) time. | iterative | O(nlogn) | SqrRtUsingBinarySearch.java |
 | Find a pair of integers if any in an array, whose sum is a specific number|  binary search, n^2, hashmap, both ends	| O(nlogn) | 	FindSum.java |
 | Find the kth minimum number in a given array of distinct integers| using partial and full quicksort | O(nlogn) | FindKthMinInt.java |
-| Sort a nearly sorted (or K sorted) array  | modified quick sort	| O(nlogk)	|	SortAlmostSortedArray	|
 | Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted | loops | O(n) | MinimumUnsortedSubarray.java |
 | Find k closest elements to a given value | distinct and non distinct 	| O(klogn) | FindKClosestElements.java |
 | Sort n numbers in range from 0 to n^2 – 1 in linear time | modified radix for power 2 or k | O(n) and O(kn) | SortNNumsRangeN2.java | 
@@ -40,4 +39,6 @@ This repository contains practice solutions to the following common programming 
 | Correct the BST whose Two nodes are swapped | recursive inorder | O(n) | BSTSwap2BadNodes.java |
 | Find a pair with given sum in a Balanced BST | inorder and reverse inorder traverse | T:O(n) S:O(logn) | FindSumBalancedBST.java |
 | Merge Two Balanced Binary Search Trees | recursive inorder array | O(m+n) | MergeBalancedBSTs.java |
+| Convert Binary Tree to Binary Search Tree maintaining its structure | recursive inorder array | O(nlogn) | BinaryTreeToBST.java |
+| Sort a nearly sorted (or K sorted) array  | using minheap | O(nlogk)	|	SortAlmostSortedArray.java	|
 ***
