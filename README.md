@@ -41,4 +41,5 @@ This repository contains practice solutions to the following common programming 
 | Merge Two Balanced Binary Search Trees | recursive inorder array | O(m+n) | MergeBalancedBSTs.java |
 | Convert Binary Tree to Binary Search Tree maintaining its structure | recursive inorder array | O(nlogn) | BinaryTreeToBST.java |
 | Sort a nearly sorted (or K sorted) array  | using minheap | O(nlogk)	|	SortAlmostSortedArray.java	|
+| print k largest elements in an array | using max heap, min heap | O(n+klogn), O(k+(n-k)logk) | KLargestElements.java 
 ***
