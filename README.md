@@ -44,4 +44,5 @@ This repository contains practice solutions to the following common programming 
 | print k largest elements in an array | using max heap, min heap | O(n+klogn), O(k+(n-k)logk) | KLargestElements.java 
 | Tournament's first and second positions | using max heap | O(n) | TournamentWinnerRunner.java |
 | Duplicates within k distance in array | hashset, hashmap | O(n) | DuplicatesKDistance.java |
+| Union and Intersection of two Linked Lists | hashset | O(n1+n2) | UnionIntersectionLinkedLists.java |
 ***
