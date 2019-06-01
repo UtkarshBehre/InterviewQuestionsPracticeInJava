@@ -46,5 +46,5 @@ This repository contains practice solutions to the following common programming 
 | Duplicates within k distance in array | hashset, hashmap | O(n) | DuplicatesKDistance.java |
 | Union and Intersection of two Linked Lists | hashset | O(n1+n2) | UnionIntersectionLinkedLists.java |
 | Find Itinerary from a given list of tickets | hashmap | O(n) | ItineraryListTickets.java |
-| Find number of Employees Under every Employee | hashmap, DP } O(n) | EmployeesUnderEmployee.java |
+| Find number of Employees Under every Employee | hashmap, DP | O(n) | EmployeesUnderEmployee.java |
 ***
