@@ -2,7 +2,6 @@ package popularQuestionSet;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
 /**
  * Given a list of tickets, find itinerary in order using the given list.
@@ -30,7 +29,7 @@ public class ItineraryListTickets {
 	public static void printItinerary(Map<String, String> map) {
 		String start = "";
 		Map<String,String> reverseMap = new HashMap<String, String>();
-		for(Entry<String, String> entry : map.entrySet()) 
+		for(Map.Entry<String, String> entry : map.entrySet()) 
 			reverseMap.put(entry.getValue(),entry.getKey());
 		for(String s : map.keySet()) {
 			if(!reverseMap.containsKey(s))
