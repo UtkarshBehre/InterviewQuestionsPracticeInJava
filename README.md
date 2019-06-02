@@ -47,4 +47,5 @@ This repository contains practice solutions to the following common programming 
 | Union and Intersection of two Linked Lists | hashset | O(n1+n2) | UnionIntersectionLinkedLists.java |
 | Find Itinerary from a given list of tickets | hashmap | O(n) | ItineraryListTickets.java |
 | Find number of Employees Under every Employee | hashmap, DP | O(n) | EmployeesUnderEmployee.java |
+| Detect Cycle in a Directed Graph |  graph, array, recursion | O(V+E) | GraphDirectedDetectCycle.java |
 ***
