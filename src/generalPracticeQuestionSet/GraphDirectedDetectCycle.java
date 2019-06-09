@@ -17,6 +17,7 @@ public class GraphDirectedDetectCycle {
 		int V;
 		LinkedList<Integer>[] adjVList;
 		
+		@SuppressWarnings("unchecked")
 		public Graph(int v) {
 			this.V = v;
 			adjVList = new LinkedList[v];

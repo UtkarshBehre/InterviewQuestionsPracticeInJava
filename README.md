@@ -48,5 +48,6 @@ This repository contains practice solutions to the following common programming 
 | Find Itinerary from a given list of tickets | hashmap | O(n) | ItineraryListTickets.java |
 | Find number of Employees Under every Employee | hashmap, DP | O(n) | EmployeesUnderEmployee.java |
 | Detect Cycle in a Directed Graph |  graph, array, recursion | O(V+E) | GraphDirectedDetectCycle.java |
-| Detect Cycle in a Undirected Graph | graph, array, recursion | O(V+E) | GraphUndirectedDetectCycle.java |
+| Detect Cycle in an Undirected Graph | graph, array, recursion | O(V+E) | GraphUndirectedDetectCycle.java |
+| Detect Cycle in an Undirected Graph using disjoint set | union, findParent, Edges array | O(VE) | GraphUndirectedCyclicDisjoint.java |
 ***
