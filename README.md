@@ -51,4 +51,5 @@ This repository contains practice solutions to the following common programming 
 | Detect Cycle in an Undirected Graph | graph, array, recursion | O(V+E) | GraphUndirectedDetectCycle.java |
 | Detect Cycle in an Undirected Graph using disjoint set | graph, union, findParent, Edges array | O(VE) | GraphUndirectedCyclicDisjoint.java |
 | Check whether a given graph is Bipartite or not | graph, array, queue | O(V+E) | GraphBipartiteOrNot.java |
+| find the longest Path in a Directed Acyclic Graph (DAG) | graph, linkedlist, topological sort, stack, arraylist | O(V+E) | GraphDAGLongestPath.java |
 ***

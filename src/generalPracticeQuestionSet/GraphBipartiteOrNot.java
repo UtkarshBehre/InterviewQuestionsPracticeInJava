@@ -17,6 +17,7 @@ public class GraphBipartiteOrNot {
 		int V;
 		LinkedList<Integer>[] adjVertices;
 		
+		@SuppressWarnings("unchecked")
 		public Graph(int v) {
 			V = v;
 			adjVertices = new LinkedList[v];
@@ -41,7 +42,6 @@ public class GraphBipartiteOrNot {
 			int[] colors = new int[V];
 			
 			LinkedList<Integer> queue = new LinkedList<Integer>();
-			boolean[] visited = new boolean[V];
 			for(int i = 0; i<V; i++) {
 				if(!(colors[i]==0))
 					continue;
