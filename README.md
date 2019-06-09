@@ -49,5 +49,6 @@ This repository contains practice solutions to the following common programming 
 | Find number of Employees Under every Employee | hashmap, DP | O(n) | EmployeesUnderEmployee.java |
 | Detect Cycle in a Directed Graph |  graph, array, recursion | O(V+E) | GraphDirectedDetectCycle.java |
 | Detect Cycle in an Undirected Graph | graph, array, recursion | O(V+E) | GraphUndirectedDetectCycle.java |
-| Detect Cycle in an Undirected Graph using disjoint set | union, findParent, Edges array | O(VE) | GraphUndirectedCyclicDisjoint.java |
+| Detect Cycle in an Undirected Graph using disjoint set | graph, union, findParent, Edges array | O(VE) | GraphUndirectedCyclicDisjoint.java |
+| Check whether a given graph is Bipartite or not | graph, array, queue | O(V+E) | GraphBipartiteOrNot.java |
 ***
