@@ -92,7 +92,6 @@ public class GraphSplitwiseSimplify {
 							taker.setValue(0);
 							amountToGive -= amountToTake;
 							addEdge(giver.getKey(), taker.getKey(), amountToTake);
-							takers.remove(taker.getKey());
 						}else {
 							taker.setValue(amountToTake-amountToGive);
 							addEdge(giver.getKey(), taker.getKey(), amountToGive);
