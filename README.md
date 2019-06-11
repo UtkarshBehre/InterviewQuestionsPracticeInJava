@@ -53,4 +53,5 @@ This repository contains practice solutions to the following common programming 
 | Check whether a given graph is Bipartite or not | graph, array, queue | O(V+E) | GraphBipartiteOrNot.java |
 | Find the longest Path in a Directed Acyclic Graph (DAG) | graph, linked list, topological sort, stack, array list | O(V+E) | GraphDAGLongestPath.java |
 | Snake and Ladder Problem | graph, linked list, queue, array list | O(V) | GraphSnakeAndLadder.java |
+| Design algorithm to simplify cash flow | graph, linked list, array, hashmap | O(VE) | GraphSplitwiseSimplify.java | 
 ***
