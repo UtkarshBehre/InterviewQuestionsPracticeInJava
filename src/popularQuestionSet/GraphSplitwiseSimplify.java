@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Map.Entry;
 
 /**
- * Design alogorith to simplify cash flow
+ * Design an algorithm to simplify cash flow between people
  * Minimize Cash Flow among a given set of friends who have borrowed money from 
  * each other. Given a number of friends who have to give or take some amount of 
  * money from one another. Design an algorithm by which the total cash flow among 
