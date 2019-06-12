@@ -1,11 +1,10 @@
 package generalPracticeQuestionSet;
 
 /**
- * Minimum adjacent swaps to move maximum and minimum to corners
+ * Minimum adjacent swaps to move maximum and minimum to left and right corners
  * Input: a[] = {3, 1, 5, 3, 5, 5, 2} Output: 6
  * Input: a[] = {5, 6, 1, 3} Output: 2
  * @author Utkarsh
- *
  */
 public class MinAdjSwapsMaxMin {
 	// tester
