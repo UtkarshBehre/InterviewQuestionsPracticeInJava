@@ -55,4 +55,5 @@ This repository contains practice solutions to the following common programming 
 | Snake and Ladder Problem | graph, linked list, queue, array list | O(V) | GraphSnakeAndLadder.java |
 | Design algorithm to simplify cash flow | graph, linked list, array, hashmap | O(VE) | GraphSplitwiseSimplify.java | 
 | Boggle, find all possible words in a board of characters | 2d graph, recursion, iteration | O(mn) | BoggleProblem.java |
+| find and print the longest increasing subsequence | array, recursion, iteration, DP | O(n^2) | LongestIncSubsequence.java |
 ***
