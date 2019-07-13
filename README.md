@@ -57,4 +57,5 @@ This repository contains practice solutions to the following common programming 
 | Boggle, find all possible words in a board of characters | 2d graph, recursion, iteration | O(mn) | BoggleProblem.java |
 | find and print the longest increasing subsequence | array, recursion, iteration, DP | O(n^2) | LongestIncSubsequence.java |
 | find the longest common subsequence between 2 strings | DP rec and bottom up | O(mn) | LongestCommonSubsequence.java |
+| edit distance problem | DP rec and bottom up | O(mn) | EditDistance.java |
 ***
