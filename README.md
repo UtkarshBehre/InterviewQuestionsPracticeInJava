@@ -58,4 +58,5 @@ This repository contains practice solutions to the following common programming 
 | find and print the longest increasing subsequence | array, recursion, iteration, DP | O(n^2) | LongestIncSubsequence.java |
 | find the longest common subsequence between 2 strings | DP rec and bottom up | O(mn) | LongestCommonSubsequence.java |
 | edit distance problem | DP rec and bottom up | O(mn) | EditDistance.java |
+| min cost path problem | DP rec and bottom up | O(mn) | MinCostPath.java |
 ***
