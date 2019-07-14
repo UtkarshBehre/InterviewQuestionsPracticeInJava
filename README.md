@@ -60,5 +60,6 @@ This repository contains practice solutions to the following common programming 
 | edit distance problem | DP rec and bottom up | O(mn) | EditDistance.java |
 | min cost path problem | DP rec and bottom up | O(mn) | MinCostPath.java |
 | Count non unique numbers and give the first repeating word in a sentence | HashSet, iterative | O(n) | NonUniqueCount.java |
-| Coin change | DP bottom up | O(mn), O(n) | CoinChange.java |
+| Coin change | DP bottom up | O(mn) | CoinChange.java |
+| Bionomial Coefficient problem | DP bottom up | O(nk) | BionomialCoefficient.java |
 ***
