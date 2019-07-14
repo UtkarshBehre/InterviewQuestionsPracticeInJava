@@ -59,4 +59,5 @@ This repository contains practice solutions to the following common programming 
 | find the longest common subsequence between 2 strings | DP rec and bottom up | O(mn) | LongestCommonSubsequence.java |
 | edit distance problem | DP rec and bottom up | O(mn) | EditDistance.java |
 | min cost path problem | DP rec and bottom up | O(mn) | MinCostPath.java |
+| Count non unique numbers and give the first repeating word in a sentence | HashSet, iterative | O(n) | NonUniqueCount.java |
 ***
