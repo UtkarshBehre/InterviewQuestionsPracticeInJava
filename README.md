@@ -55,11 +55,12 @@ This repository contains practice solutions to the following common programming 
 | Snake and Ladder Problem | graph, linked list, queue, array list | O(V) | GraphSnakeAndLadder.java |
 | Design algorithm to simplify cash flow | graph, linked list, array, hashmap | O(VE) | GraphSplitwiseSimplify.java | 
 | Boggle, find all possible words in a board of characters | 2d graph, recursion, iteration | O(mn) | BoggleProblem.java |
-| find and print the longest increasing subsequence | array, recursion, iteration, DP | O(n^2) | LongestIncSubsequence.java |
-| find the longest common subsequence between 2 strings | DP rec and bottom up | O(mn) | LongestCommonSubsequence.java |
-| edit distance problem | DP rec and bottom up | O(mn) | EditDistance.java |
-| min cost path problem | DP rec and bottom up | O(mn) | MinCostPath.java |
+| find and print the longest increasing subsequence | array, memoization, bottom up, DP | O(n^2) | LongestIncSubsequence.java |
+| find the longest common subsequence between 2 strings | DP memoization and bottom up | O(mn) | LongestCommonSubsequence.java |
+| edit distance problem | DP memoization and bottom up | O(mn) | EditDistance.java |
+| min cost path problem | DP memoization and bottom up | O(mn) | MinCostPath.java |
 | Count non unique numbers and give the first repeating word in a sentence | HashSet, iterative | O(n) | NonUniqueCount.java |
 | Coin change | DP bottom up | O(mn) | CoinChange.java |
 | Bionomial Coefficient problem | DP bottom up | O(nk) | BionomialCoefficient.java |
+| Knapsack problem | DP memoization and bottom up | O(nw) | KnapsackProblem.java |
 ***
