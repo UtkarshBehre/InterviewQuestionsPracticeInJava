@@ -63,4 +63,5 @@ This repository contains practice solutions to the following common programming 
 | Coin change | DP bottom up | O(mn) | CoinChange.java |
 | Bionomial Coefficient problem | DP bottom up | O(nk) | BionomialCoefficient.java |
 | Knapsack problem | DP memoization and bottom up | O(nw) | KnapsackProblem.java |
+| Egg dropping problem | DP bottom up with and without printing floors | O(en^2) | EggDroppingProblem.java |
 ***
