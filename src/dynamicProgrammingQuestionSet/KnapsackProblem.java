@@ -8,7 +8,6 @@ public class KnapsackProblem {
 	 * solution entry point
 	 */
 	public static int findMaxValuePossible(int[] values, int[] weights, int w) {
-		Map<String, Integer> mem = new HashMap<String, Integer>();
 		//return findMaxRec(values, weights, values.length-1, w, mem);
 		return findMaxValue(values, weights, values.length, w);
 	}
