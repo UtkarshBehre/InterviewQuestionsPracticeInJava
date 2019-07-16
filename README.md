@@ -64,4 +64,5 @@ This repository contains practice solutions to the following common programming 
 | Bionomial Coefficient problem | DP bottom up | O(nk) | BionomialCoefficient.java |
 | Knapsack problem | DP memoization and bottom up | O(nw) | KnapsackProblem.java |
 | Egg dropping problem | DP bottom up with and without printing floors | O(en^2) | EggDroppingProblem.java |
+| Longest Palindromic Subsequence | DP memoization and generic | O(n^2) | LongestPalindromicSubsequence.java |
 ***
