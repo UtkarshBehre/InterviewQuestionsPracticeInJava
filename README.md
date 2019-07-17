@@ -65,4 +65,5 @@ This repository contains practice solutions to the following common programming 
 | Knapsack problem | DP memoization and bottom up | O(nw) | KnapsackProblem.java |
 | Egg dropping problem | DP bottom up with and without printing floors | O(en^2) | EggDroppingProblem.java |
 | Longest Palindromic Subsequence | DP memoization and generic | O(n^2) | LongestPalindromicSubsequence.java |
+| Added cutting a rod problem | DP bottom up approach | O(n^2) | CuttingARodProblem.java |
 ***
