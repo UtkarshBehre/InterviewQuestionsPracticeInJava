@@ -57,52 +57,68 @@ public class GraphSplitwiseSimplify {
 		 */
 		@SuppressWarnings("unchecked")
 		public void simplifyDepts() {
+			// key is the vertex indication of person and value is the amount person needs or owes
 			HashMap<Integer, Integer> takers = new HashMap<Integer, Integer>();
 			HashMap<Integer, Integer> givers = new HashMap<Integer, Integer>();
+			// depts array keeps track of current total dept whether 
+			// positive or negative or 0 on each individuals, where index is vertex
 			int[] depts = new int[V];
 			for(int i=0; i<V; i++) {
 				for(AdjNode adjNode : adjNodesList[i]) {
-					depts[i] -= adjNode.dept;
+					// for each edge on a vertex we remove dept from both vertices
+					depts[i] -= adjNode.dept; 
 					depts[adjNode.adjV] += adjNode.dept; 
 				}
 			}
+			// ultimately we will have depts in positive negative or 0 in depts array
 			for(int i=0; i<V; i++) {
+				// negative dept means the person owes others
 				if(depts[i]<0) {
 					givers.put(i,Math.abs(depts[i]));
 				}
+				// positive dept means the person needs to take from others
 				else if(depts[i]>0) {
 					takers.put(i,depts[i]);
 				}
 			}
-					
+			
+			// since we updated depts[] from adjNodesList, we now reset the adjNodesList
 			adjNodesList = new LinkedList[V];
 			for(int i=0; i<V; i++) {
 				adjNodesList[i] = new LinkedList<AdjNode>();
 			}
-			// time complexity of this block can be calculated as below. In worst 
-			// case takers = givers, but even in that case we don't compute anything 
-			// for a taker if it is 0. ( here we keep it to avoid hashmap ConcurrentModification problem)
-			// So this can be considered like iterating an array from both sides to find sum
+			/* time complexity of this block can be calculated as below. In worst 
+			/ case takers = givers, but even in that case we don't compute anything 
+			/ for a taker if it is 0. ( here we keep it to avoid hashmap ConcurrentModification problem)
+			/ So this can be considered like iterating an array from both sides to find sum */
+			
+			// we run outer giver loop and it keeps giving until it can to the takers i.e. amount to give > 0
 			for ( Entry<Integer, Integer> giver : givers.entrySet()) {
-				int amountToGive = giver.getValue();
+				int amountToGive = giver.getValue(); // max amount current giver can give
 				for(Entry<Integer, Integer> taker : takers.entrySet()) {
-					int amountToTake = taker.getValue();
-					if(amountToTake>0) {
-						if(amountToTake < amountToGive) {
-							taker.setValue(0);
-							amountToGive -= amountToTake;
-							addEdge(giver.getKey(), taker.getKey(), amountToTake);
-						}else {
+					int amountToTake = taker.getValue(); // amount current taker has to take
+					if(amountToTake>0) { // if the taker still needs to take
+						// if the amount to give is more, that means we'll be left with some 
+						//amount even after this transaction
+						if(amountToTake < amountToGive) { 
+							taker.setValue(0); // as taker gets entire amount he needed
+							amountToGive -= amountToTake; // left out amount that can be given
+							// we add the transaction done as required edge
+							addEdge(giver.getKey(), taker.getKey(), amountToTake); 
+						}else {	// in case taker can't take the full amount needed, takes whatever left
 							taker.setValue(amountToTake-amountToGive);
 							addEdge(giver.getKey(), taker.getKey(), amountToGive);
+							// since give has nothing more to give we break the inner for loop
 							break;
 						}
 					} 
-				}
-				giver.setValue(amountToGive);
+				} 
 			}
 		}
 		
+		/**
+		 * prints the current depts between all members according to the edges
+		 */
 		public void printDepts() {
 			System.out.println("depts are: ");
 			for(int i = 0; i<V; i++) {
@@ -117,6 +133,7 @@ public class GraphSplitwiseSimplify {
 	public static void main(String[] args) {
 		System.out.println("Test set 1");
 		Graph g = new Graph(3);
+		// each edge represents the dept between the 2 persons, use printDepts to understand
 		g.addEdge(0, 1, 1000);
 		g.addEdge(1, 2, 5000);
 		g.addEdge(0, 2, 2000);
