@@ -67,4 +67,5 @@ This repository contains practice solutions to the following common programming 
 | Longest Palindromic Subsequence | DP memoization and generic | O(n^2) | LongestPalindromicSubsequence.java |
 | Added cutting a rod problem | DP bottom up approach | O(n^2) | CuttingARodProblem.java |
 | added maximum sum increasing subsequence problem | DP memoization | O(n^2) | MaxSumIncSubsequence.java |
+| Longest Bitonic Subsequence | DP memoization | O(n^2) | LongestBitonicSubsequence.java |
 ***
