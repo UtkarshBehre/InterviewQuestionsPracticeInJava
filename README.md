@@ -68,4 +68,5 @@ This repository contains practice solutions to the following common programming 
 | Added cutting a rod problem | DP bottom up approach | O(n^2) | CuttingARodProblem.java |
 | added maximum sum increasing subsequence problem | DP memoization | O(n^2) | MaxSumIncSubsequence.java |
 | Longest Bitonic Subsequence | DP memoization | O(n^2) | LongestBitonicSubsequence.java |
+| Floyd Warshall Algo for shortest distance path b/w each pair vertices using 2d matrix graph | DP bottom up | O(n^3) | FloydWarshallAlgo.java |
 ***
