@@ -71,4 +71,5 @@ This repository contains practice solutions to the following common programming 
 | Floyd Warshall Algo for shortest distance path b/w each pair vertices using 2d matrix graph | DP bottom up | O(n^3) | FloydWarshallAlgo.java |
 | Matrix Chain Multiplications - minimum operations required | DP memoization | O(n^3) | MatrixChainMultiplication.java |
 | Palindrome Partitioning - minimum cuts required so all partitions are palindrome | DP memoization | O(n^2) | PalindromePartitioning.java |
+| Sum Partition problem - are 2 subsets with equal sum possible | recursion, DP bottom up | O(sum*n) | SumPartitionProblem |
 ***
