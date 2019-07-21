@@ -1,7 +1,7 @@
 package dynamicProgrammingQuestionSet;
 import java.util.*;
 
-/** Partition problem
+/** Sum Partition problem
  * Partition problem is to determine whether a given set can be partitioned into 
  * two subsets such that the sum of elements in both subsets is same.
  * Runtime: O(sum*p)  
